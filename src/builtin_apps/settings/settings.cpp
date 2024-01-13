@@ -46,7 +46,7 @@ namespace MOONCAKE {
                 
                 Settings* app = (Settings*)lv_event_get_user_data(e);
                 app->_set_time();
-                
+                app->destroyApp();
             }
         }
 
